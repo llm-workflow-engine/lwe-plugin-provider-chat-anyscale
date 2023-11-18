@@ -7,7 +7,7 @@ ANYSCALE_DEFAULT_MODEL = "meta-llama/Llama-2-7b-chat-hf"
 
 class ProviderChatAnyscale(Provider):
     """
-    Access to Anyscale models
+    Access to Anyscale chat models.
     """
 
     @property
