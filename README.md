@@ -48,6 +48,16 @@ plugins:
   enabled:
     - provider_chat_anyscale
     # Any other plugins you want enabled...
+  # THIS IS OPTIONAL -- By default the plugin loads all model data via an API
+  # call on startup. This does make startup time longer.
+  # You can instead provide a 'models' object here with the relevant data, and
+  # It will be used instead of an API call.
+  provider_chat_anyscale:
+    models:
+      # 'id' parameter of the model as it appears in the API.
+      "meta-llama/Meta-Llama-3-8B-Instruct":
+        # The only parameter, and it's required.
+        max_tokens: 8192
 ```
 
 ## Usage
