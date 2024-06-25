@@ -25,10 +25,6 @@ class ProviderChatAnyscale(Provider):
     Access to Anyscale chat models.
     """
 
-    def __init__(self, config=None):
-        super().__init__(config)
-        self.models = self.config.get('plugins.provider_chat_anyscale.models') or self.fetch_models()
-
     def fetch_models(self):
         models_url = f"{ANYSCALE_API_BASE}/models"
         try:
