@@ -58,7 +58,6 @@ class ProviderChatAnyscale(Provider):
         return {
             "chat": True,
             'validate_models': True,
-            "models": self.models,
         }
 
     def prepare_messages_method(self):
