@@ -1,3 +1,5 @@
+**NOTE: Anyscale removed multi-tenant access to their Endpoints API, as a result, this plugin is not being actively maintained.**
+
 # LLM Workflow Engine (LWE) Chat Anyscale Provider plugin
 
 Chat Anyscale Provider plugin for [LLM Workflow Engine](https://github.com/llm-workflow-engine/llm-workflow-engine)
